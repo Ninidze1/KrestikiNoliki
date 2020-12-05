@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         if (movesMade == 9 && winnerPlayer == 0) {
-            Toast.makeText(this,"ბედნიერადაა საქმე :დ", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"draw!", Toast.LENGTH_LONG).show()
 
         } else if (movesMade == 9 && winnerPlayer == 1) {
             Toast.makeText(this,"X wins!", Toast.LENGTH_LONG).show()
